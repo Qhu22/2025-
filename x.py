@@ -33,7 +33,9 @@ example = {
     'git': [False, False, True, True, False, True, True, True, True, True],
 
 }
-
+print(example['python'][0])
+print(example['python'])
+print(example)
 python_description = [
 
     {
@@ -61,5 +63,5 @@ python_description = [
     },
 
 ]
-
+print(python_description[0])
 list_example = [1, "+", 2, "="]
