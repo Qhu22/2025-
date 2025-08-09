@@ -65,3 +65,8 @@ python_description = [
 ]
 print(python_description[0])
 list_example = [1, "+", 2, "="]
+
+dict_example = {
+    1:'asdf'#key에 변수,함수는 사용불가하지만 상수, 문자는 가능하다 ,
+    ,'a':'asdf'
+}
