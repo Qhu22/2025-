@@ -37,6 +37,12 @@ z = x ** y
 print("x ** y", z) # 제곱
 
 
+z = x + 5 * 3 # 곱셈이 덧셈보다 우선순위가 높음
+print("x + 5 * 3:" , z)
+
+z = (x + 5) * 3 # 괄호로 우선 순위 높이기
+print("(x + 5) * 3:" , z)
+
 str_x = "hello"
 str_y = "python"
 
