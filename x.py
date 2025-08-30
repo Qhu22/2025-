@@ -55,9 +55,28 @@ print(len(x)-1)
 
 
 x = {'a': 100, 'b': 200}
+print(x)
 print(x['a'])
 print(type(x))
 
+x['c'] = 10
+print(x)
+print(x['c'])
+print(x['d']) #KeyErroer : 'd'
+
+
+del x['a']
+print(x)
+
+
+print(x.keys())
+print(x.values())
+print(x.items())
+
+print(x.clear()) #딕셔너리 지우기
+
+
+#정오표
 example = {
 
     'python': [True, False, True, True, True, True, True, False, False, True],
