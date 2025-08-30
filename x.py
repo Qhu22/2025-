@@ -34,6 +34,7 @@ print("insert======")
 x.insert(1,9)
 print(x)
 print("remove======")#인덱스가 아닌 값을 지우는 함수
+x.remove(1) # 인덱스가 아닌 값을 지우는 함수
 print(x)
 print("9->6=========")
 x[0] = 6
