@@ -1,9 +1,5 @@
-from playground import user_input
 
 #score = int(input("점수를 입력하세요"))
-
-
-
 
 #    if score > 100 or score <0:
         #print("정상적인 점수 범위가 아닙니다")
@@ -27,11 +23,13 @@ from playground import user_input
   #      break
 
 input_number =int(input("숫자를 입력하세요."))
-index = 1
+index = 2
 
 while index <= input_number:
-    print(index)
-    index = index + 1
+    if index % 2 == 0:
+        print(index)
+    index = index + 2
+
 
 
 
