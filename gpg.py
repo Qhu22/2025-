@@ -9,4 +9,4 @@ print(int(User_input)+5)
 User_input = int(input("숫자를 입력하고 엔터를 누르세요"))
 print(User_input+5)
 
-#오늘의 일기 코딩수업을 2번째 했다 배가 고프다 버거킹가서 버거를 조질거다 그리고 학원 가야되는데 숙제를 안했다 아............. 가기싫어
+#TEST
