@@ -76,8 +76,8 @@ final_score = 0
 #힉생의 점수 구하기 한 문항당 10점이라 가정
 for (student, correct) in zip(a,correct_answer):
     print(student , '/', correct)
-    for (student, correct) in zip(a, correct_answer):
+    if student == correct:
+        final_score =final_score+10
 
-        if student == correct:
-            print(final_score+10)
+print(final_score)
 
