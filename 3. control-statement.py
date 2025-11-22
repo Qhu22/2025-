@@ -91,6 +91,14 @@ print(final_score)
 
 
 
+score = 0
+ for i in range(len(a)):
+     if a[i] == correct_answer[i]:
+         score = score + 10
+ print(score)
+
+
+
 
 
 
