@@ -80,4 +80,11 @@ for (student, correct) in zip(a,correct_answer):
         final_score =final_score+10
 
 print(final_score)
+final_score = 100
 
+for (student, correct) in zip(a,correct_answer):
+    print(student , '/', correct)
+    if student != correct:
+        final_score =final_score-10
+
+print(final_score)
