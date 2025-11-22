@@ -53,5 +53,31 @@ def print_fibonacci_type2():
         b = c
 
 
+#함수호출방법
+#repeated_finction()
 
+#arr = ['aa','bb','cc', 'dd']
+
+#for i in arr:
+#    print(i)
+
+
+#수학
+tset = [{'answer': [1, 3, 2, 4, 5, 3, 1, 2, 3, 4]},
+{'answer': [1, 3, 2, 4, 5, 3, 1, 2, 3, 4]},
+{'answer': [1, 3, 2, 4, 5, 3, 1, 2, 3, 4]},
+{'answer': [1, 3, 2, 4, 5, 3, 1, 2, 3, 4]},
+{'answer': [1, 3, 2, 4, 5, 3, 1, 2, 3, 4]},
+{'answer': [1, 5, 2, 4, 5, 3, 1, 2, 3, 4]}]
+
+a =[1, 5, 2, 4, 5, 3, 1, 2, 3, 4]
+correct_answer = [1, 3, 2, 4, 5, 3, 1, 2, 3, 4]
+final_score = 0
+#힉생의 점수 구하기 한 문항당 10점이라 가정
+for (student, correct) in zip(a,correct_answer):
+    print(student , '/', correct)
+    for (student, correct) in zip(a, correct_answer):
+
+        if student == correct:
+            print(final_score+10)
 
