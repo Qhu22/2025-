@@ -1,3 +1,4 @@
+import random
 def print_times_table(number):
     print(number, "*", 1, "=", number * 1)
 
@@ -13,8 +14,6 @@ def print_times_table(number):
 
     print(number, "*", 7, "=", number * 7)
 
-    print(number, "*", 8, "=", number * 8)
-
     print(number, "*", 9, "=", number * 9)
 
 
@@ -24,7 +23,12 @@ while True:
 
     if user_input.lower() == "z":
         break
-
-
+        
+        
     print_times_table(int(user_input))
 
+
+def updown ():
+    The_number = int(random.random)
+    x= int(input())
+    if():
