@@ -1,4 +1,7 @@
 import random
+from pstats import add_func_stats
+
+
 #def print_times_table(number):
  #   print(number, "*", 1, "=", number * 1)
 #
@@ -23,17 +26,30 @@ import random
     #print_times_table(int(user_input))
 
 
-x = (int(input("값을 입력하세요")))
-the_number = int(random.random())
-while True:
-    if x > the_number:
-        print("down")
+def updown():
+    the_number = int(random.random())
+    while True:
+        x = (int(input("값을 입력하세요")))
+        if x > the_number:
+            print("down")
 
 
-    elif x < the_number:
-        print("up")
+        elif x < the_number:
+            print("up")
 
-    elif x == the_number:
-        print("complete!!")
-        break
+        elif x == the_number:
+            print("complete!!")
+            break
+
+import time
+def stop_watch():
+    print("WELCOME TO UP STOPWATCH")
+    # random 초를 제공하면 ex) 7
+    initial_time = int(random.randrange(1, 10))
+    start = time.time()
+    while True:
+
+        x = int(input())
+        if x == int("c"):
+
 
