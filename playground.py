@@ -29,6 +29,15 @@ while True:
 
 
 def updown ():
-    The_number = int(random.random)
-    x= int(input())
-    if():
+    the_number = int(random.random())
+    while
+        x= int(input())
+        if x > the_number:
+            print("down")
+
+        if x < the_number:
+            print("up")
+
+        if x == the_number:
+            print("complete!!")
+
